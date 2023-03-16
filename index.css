@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.bg-container {
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    top: 1;
+    
+}
+.img {
+    height: 50vh;
+    width: 100vw;
+    top: auto;
+
+}
+
+@media screen and (max-width:768px) {
+    .img{
+        display: none;
+    }
+    
+}
+
+
+.card-container {
+    background-color: #fff;
+    height: 75vh;
+    width: 28vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin-top: -50vh;
+    text-align: center;
+    border-radius: 6px;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width:768px) {
+    .card-container{
+        height: 77vh;
+        width: 80vw;
+        margin-top: 18px;
+    }
+    
+}
+
+.img2{
+    height: 23vh;
+    width: 28vw;
+    
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+@media  screen and (max-width:768px) {
+    .img2{
+        height: 22vh;
+        width: 80vw;
+    }
+    
+}
+
+ .plan{
+    background-color:hsl(225, 100%, 98%) ;
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 7px;
+   
+    
+} 
+@media screen and (max-width:768px){
+    .plan{
+        justify-content: space-between;
+    }
+}
+
+ button {
+    background-color: hsl(247, 85%, 57%);
+    color: #fff;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px 0px   hsl(225, 100%, 94%);
+    margin: 20px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.text-container{
+    margin: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .text-container{
+        margin-top: 20px;
+    }
+    
+}
+.heading {
+    font-weight:900 ;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.text-container p{
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    margin-top: 13px;
+}
+
+.img3{
+    margin-right: 10px;
+}
+.text{
+    margin-left: -35px;
+    text-align: left;
+    margin-top: 3px;
+}
+
+@media screen and (max-width:768px){
+    .text{
+        margin-right: -10px;
+    }
+}
+
+.change {
+    color:hsl(240, 85%, 55%) ;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.sub-heading {
+    margin: 3px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.price {
+    color: hsl(224, 23%, 55%);
+    font-size: 13px;
+}
+.cancel{
+    cursor: pointer;
+    font-weight: bolder;
+    color: hsl(224, 23%, 55%);
+}
+footer {
+    text-align: center;
+}
